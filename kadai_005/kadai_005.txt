@@ -1,11 +1,23 @@
-commit e8be87b35893193f12c28b2e98adc02ca747a93d (HEAD -> master)
+PS C:\Users\dammy\Desktop\github-basic-kadai> echo "Hello, World!" >> hello_world.txt
+PS C:\Users\dammy\Desktop\github-basic-kadai> mv hello_world.txt ./git_challenge
+PS C:\Users\dammy\Desktop\github-basic-kadai> git add -A
+PS C:\Users\dammy\Desktop\github-basic-kadai> git commit -m "１回目の変更"
+[main bb816c2] １回目の変更
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git_challenge/hello_world.txt
+PS C:\Users\dammy\Desktop\github-basic-kadai> git add -A
+PS C:\Users\dammy\Desktop\github-basic-kadai> git commit -m "2回目の変更"
+[main 91e8e83] 2回目の変更
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\dammy\Desktop\github-basic-kadai> git log
+commit 91e8e8371eebd6e805002305fd38022db7b251f1 (HEAD -> main)
 Author: CaoAnderson <kairi.220284@gmail.com>
-Date:   Wed May 13 19:43:42 2026 +0900
+Date:   Mon May 18 23:25:48 2026 +0900
 
-    second commit
+    2回目の変更
 
-commit 9a5989ee2b049d290de91b37d0f41591d23a0240
+commit bb816c2f6612925d272c2f06e46249b7a1c4cb47
 Author: CaoAnderson <kairi.220284@gmail.com>
-Date:   Wed May 13 19:43:06 2026 +0900
+Date:   Mon May 18 23:25:06 2026 +0900
 
-    initial commit
+    １回目の変更
